@@ -44,13 +44,13 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
+    name: 'project',
     href: 'portfolio',
   },
-  // {
-  //   name: 'services',
-  //   href: 'services',
-  // },
+  {
+    name: 'skills',
+    href: 'skills',
+  },
   // {
   //   name: 'testimonials',
   //   href: 'testimonials',
