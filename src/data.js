@@ -17,6 +17,8 @@ import Project4 from './assets/img/projects/ignite.PNG';
 import Project5 from './assets/img/projects/skinstore1.png';
 import Project6 from './assets/img/projects/refer.PNG';
 import Project7 from './assets/img/projects/freecollage.PNG';
+import Project8 from './assets/img/projects/Hotel.jpg';
+import Project9 from './assets/img/projects/artical.jfif';
 
 
 
@@ -46,6 +48,10 @@ export const navigation = [
   {
     name: 'project',
     href: 'portfolio',
+  },
+  {
+    name : 'experience',
+    href : 'experience',
   },
   {
     name: 'skills',
@@ -89,6 +95,25 @@ export const social = [
 
 // projects
 export const projectsData = [
+  {
+    id: '8',
+
+    image: Project8,
+    name: 'Dham - Admin Dashboard ',
+    category: 'Solo Projects',
+    info:"Dham is an admin dashboard that allows efficient management of hotels, blogs, events, locations, advertisements, and guides through CRUD operations. As a React Developer.",
+    tech:"ReactJS | Redux-toolkit | Material UI | Axios",
+  },
+
+  {
+    id: '9',
+
+    image: Project9,
+    name: 'Article Management',
+    category: 'Solo Projects',
+    info:"ContentCraft is an intuitive article management web app that allows users to create, categorize, and manage content throughout its lifecycle. It features secure authentication.",
+    tech:"ReactJS | Redux-toolkit | Material UI | Axios",
+  },
   {
     id: '5',
 
