@@ -6,7 +6,7 @@ const Hero = () => {
   const handleResumeClick = () => {
     // Open resume in a new tab
     window.open(
-      "https://drive.google.com/file/d/1mtWrOfDb7dT_ihrP3hRr927JN4gsEUoe/view?usp=sharing",
+      "https://drive.google.com/file/d/1lvVlrA34tOMlmW6xLb5kQ8QovtcJp4i7/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     );
@@ -14,7 +14,7 @@ const Hero = () => {
     // Trigger download
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1mtWrOfDb7dT_ihrP3hRr927JN4gsEUoe";
+      "https://drive.google.com/uc?export=download&id=1lvVlrA34tOMlmW6xLb5kQ8QovtcJp4i7";
     link.download = "Jaya_Vishwakarma_Resume.pdf";
     document.body.appendChild(link);
     link.click();
