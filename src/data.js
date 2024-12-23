@@ -17,8 +17,7 @@ import Project4 from './assets/img/projects/ignite.PNG';
 import Project5 from './assets/img/projects/skinstore1.png';
 import Project6 from './assets/img/projects/refer.PNG';
 import Project7 from './assets/img/projects/freecollage.PNG';
-import Project8 from './assets/img/projects/Hotel.jpg';
-import Project9 from './assets/img/projects/artical.jfif';
+import Project8 from './assets/img/projects/Foodweb.png';
 
 
 
@@ -99,20 +98,12 @@ export const projectsData = [
     id: '8',
 
     image: Project8,
-    name: 'Dham - Admin Dashboard ',
+    name: 'Food Odering ',
     category: 'Solo Projects',
-    info:"Dham is an admin dashboard that allows efficient management of hotels, blogs, events, locations, advertisements, and guides through CRUD operations. As a React Developer.",
-    tech:"ReactJS | Redux-toolkit | Material UI | Axios",
-  },
-
-  {
-    id: '9',
-
-    image: Project9,
-    name: 'Article Management',
-    category: 'Solo Projects',
-    info:"ContentCraft is an intuitive article management web app that allows users to create, categorize, and manage content throughout its lifecycle. It features secure authentication.",
-    tech:"ReactJS | Redux-toolkit | Material UI | Axios",
+    info:"A React.js and Redux-based mini project for online food ordering, featuring user authentication, category-wise menus, detailed food pages, and a dynamic shopping cart. Simplified for learning and showcasing modern web development practices.",
+    tech:"ReactJS | Redux-toolkit | Axios",
+    github:"https://github.com/Jaya8277/Food_Web",
+    live:"https://food-web-c2e090.netlify.app/",
   },
   {
     id: '5',
